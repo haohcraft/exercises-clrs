@@ -4,7 +4,8 @@
   "description": "Some javascript exercises for CLRS",
   "scripts": {
     "test": "echo \"Error: run npm test from inside the challenge directories or do 'npm run test-all'\" && exit 1",
-    "test-all": "mocha '**/test.js'"
+    "test-all": "mocha '**/test.js'",
+    "update": "git add -A && git commit -m 'update' && git push master "
   },
   "author": "Moshe Kolodny",
   "license": "MIT",
