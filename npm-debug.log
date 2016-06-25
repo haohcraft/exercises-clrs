@@ -12,11 +12,12 @@
 8 verbose lifecycle exercises-clrs@~update: unsafe-perm in lifecycle true
 9 verbose lifecycle exercises-clrs@~update: PATH: /Users/hhuang/.nvm/versions/node/v5.6.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/hhuang/Documents/play/exercises-clrs/node_modules/.bin:/Users/hhuang/.nvm/versions/node/v5.6.0/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 10 verbose lifecycle exercises-clrs@~update: CWD: /Users/hhuang/Documents/play/exercises-clrs
-11 silly lifecycle exercises-clrs@~update: Args: [ '-c', 'git commit -m \'update\' && git push master ' ]
-12 silly lifecycle exercises-clrs@~update: Returned: code: 1  signal: null
+11 silly lifecycle exercises-clrs@~update: Args: [ '-c',
+11 silly lifecycle   'git add -A && git commit -m \'update\' && git push master ' ]
+12 silly lifecycle exercises-clrs@~update: Returned: code: 128  signal: null
 13 info lifecycle exercises-clrs@~update: Failed to exec update script
-14 verbose stack Error: exercises-clrs@ update: `git commit -m 'update' && git push master `
-14 verbose stack Exit status 1
+14 verbose stack Error: exercises-clrs@ update: `git add -A && git commit -m 'update' && git push master `
+14 verbose stack Exit status 128
 14 verbose stack     at EventEmitter.<anonymous> (/Users/hhuang/.nvm/versions/node/v5.6.0/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at EventEmitter.emit (events.js:185:7)
@@ -32,14 +33,14 @@
 19 error node v5.6.0
 20 error npm  v3.6.0
 21 error code ELIFECYCLE
-22 error exercises-clrs@ update: `git commit -m 'update' && git push master `
-22 error Exit status 1
-23 error Failed at the exercises-clrs@ update script 'git commit -m 'update' && git push master '.
+22 error exercises-clrs@ update: `git add -A && git commit -m 'update' && git push master `
+22 error Exit status 128
+23 error Failed at the exercises-clrs@ update script 'git add -A && git commit -m 'update' && git push master '.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the exercises-clrs package,
 23 error not with npm itself.
 23 error Tell the author that this fails on your system:
-23 error     git commit -m 'update' && git push master
+23 error     git add -A && git commit -m 'update' && git push master
 23 error You can get information on how to open an issue for this project with:
 23 error     npm bugs exercises-clrs
 23 error Or if that isn't available, you can get their info via:
