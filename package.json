@@ -1,7 +1,7 @@
 {
-  "name": "exercises",
+  "name": "exercises-clrs",
   "private": true,
-  "description": "some javascript exercises",
+  "description": "Some javascript exercises for CLRS",
   "scripts": {
     "test": "echo \"Error: run npm test from inside the challenge directories or do 'npm run test-all'\" && exit 1",
     "test-all": "mocha '**/test.js'"
