@@ -1,6 +1,5 @@
-[![Gitter][gitter-image]][gitter-url]
 
-Algo implementation in JS for CLRS
+### Algo implementation in JS for CLRS
 
 Here's the basic workflow:
 
