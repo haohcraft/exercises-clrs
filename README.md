@@ -21,3 +21,8 @@ Pull requests welcome, please follow the basic workflow:
 2. Copy a package.json from a sibling folder
 3. Make a test.js file
 4. Optionally provide a README.md
+
+
+### Solutions
+
+[here](http://clrs.skanev.com/index.html)
